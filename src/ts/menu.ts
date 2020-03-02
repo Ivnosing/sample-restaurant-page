@@ -1,6 +1,7 @@
 import createElement from './element-creation';
 
 const renderMenu = () => {
+  console.log('TO DO:');
   console.log('render menu');
   const content = document.getElementById('content');
   content.innerHTML = null;
