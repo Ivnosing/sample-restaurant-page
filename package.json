@@ -4,9 +4,20 @@
   "description": "A sample page for a made-up restaurant following [The Odin Project JavaScript course](https://www.theodinproject.com/courses/javascript/lessons/tic-tac-toe-javascript).",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --progress",
+    "watch": "webpack --progress --watch",
+    "start:dev": "webpack-dev-server --open"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ivnosing/sample-restaurant-page.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ivnosing/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/Ivnosing/tic-tac-toe#readme",
+  "author": "Iván Navarro Agulló",
   "license": "ISC",
   "devDependencies": {
     "webpack": "^4.42.0",
