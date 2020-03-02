@@ -1,0 +1,41 @@
+.hero {
+  position: relative;
+  height: 100%;
+  border-radius: 1.5rem;
+  background-image: linear-gradient(0deg, rgba(255,202,40, 0.3), rgba(255,202,40, 0.3)), url(../src/img/tortilla-patata.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  &__text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    left: 2rem;
+    right: 2rem;
+    top: 2rem;
+    bottom: 2rem;
+
+    h2 {
+      font-family: 'Space Mono', sans-serif;
+    }
+
+    p {
+      max-width: 40rem;
+    }
+
+    &__opening-hours {
+
+      h3 {
+        font-family: 'Space Mono', sans-serif;
+        margin: 2rem 0 0.5rem;
+      }
+
+      ul {
+        margin: 0.5rem 0;
+        padding-left: 1.25rem;
+      }
+    }
+  }
+}
